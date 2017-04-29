@@ -13,19 +13,20 @@
 	
 </head>
 <body>
-	<header class="container-fluid">
-		
+	<header class="container-fluid header">
+		<div>HANGMAN</div>
+		<div>ACTION MOVIE EDITION</div>
 	</header>
 	<div id="wrapper">
 		<div class="container">
 			<div class="row">
-				<section class="col-md-5 col-md-offset-1">
+				<section class="col-md-5 col-md-offset-1 main-content">
 					<div id="image-container">
 						<img src="assets/images/hangman.png" id="image" alt="image">
 					</div>
 					
 				</section>
-				<section class="col-md-5">
+				<section class="col-md-5 main-content">
 					<div class="row text-center">
 						<div class="col-md-12">
 							<div id="panel-heading">PRESS ANY KEY TO BEGIN!</div>
@@ -33,8 +34,9 @@
 							<div id="game-content">
 								<div class="content" id="word-header">Current Word</div>
 									<div id="word-content"></div>
-								<div class="content" id="chance-header">Guesses Remaining</div>
-								<div class="content" id="chances"></div>
+								<div class="content" id="chance-header">
+									<span>Guesses Remaining</span>
+									<div class="content" id="chances"></div>
 								<div class="content" id="guessed-header">
 									<span>Letters Already Guessed</span>
 									<div id="guessed"></div>

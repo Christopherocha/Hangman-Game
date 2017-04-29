@@ -4,10 +4,10 @@ body {
 	display: flex;
   	min-height: 100vh;
   	flex-direction: column;
+  	background-image: url('../images/explosionBackground.jpg');
 }
 
 header {
-	background-color: #000;
 	width: 100%;
 	height: 75px;
 }
@@ -15,6 +15,18 @@ header {
 section {
 	border: 5px dotted #000;
 	background-color: transparent;
+}
+
+.header {
+	font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    line-height: 1;
+}
+
+.main-content {
+	min-height: 450px;
 }
 
 .container{
@@ -27,7 +39,7 @@ section {
 
 .text-center {
 	text-align: center;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
 	font-size: 26px;
 }
@@ -37,7 +49,7 @@ section {
 }
 
 #wrapper {
-	background-image: url('../images/explosionBackground.jpg');
+	
 	width: 100%;
 	height: 100%; 
 	flex: 1;
@@ -60,10 +72,14 @@ section {
 	color: #000;
 }
 
-/*#h2 {
-	font-size: 22px;
-	color: #fff;
-}*/
+#guessed-header {
+	color: #000;
+}
+#word-content {
+	letter-spacing: 5px;
+}
+
+
 
 
 
